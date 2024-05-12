@@ -89,10 +89,10 @@ impl ConnectDaemon {
         })
     }
 
-    /// Gets a handle to the debug pack from the outside.
-    pub fn debug(&self) -> &DebugPack {
-        &self.ctx.debug
-    }
+    // Gets a handle to the debug pack from the outside.
+    // pub fn debug(&self) -> &DebugPack {
+    //     &self.ctx.debug
+    // }
 }
 
 #[derive(Clone)]
